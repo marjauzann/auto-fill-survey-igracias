@@ -1,12 +1,12 @@
- // ==UserScript==
- // @name         Survey AutoFill Radio + Text
-// @namespace    local.autofill.survey
- // @version      1.0
- // @description  Auto pilih radio & isi text/textarea setiap halaman survey (offset berubah).
- // @match        *://*/survey/*
- // @run-at       document-idle
+// ==UserScript==
+// @name         Survey AutoFill Radio + Text (Mobile)
+// @namespace    local.autofill.survey.mobile
+// @version      1.0
+// @description  Auto pilih radio & isi text/textarea setiap halaman survey untuk mobile browser.
+// @match        *://*/survey/*
+// @run-at       document-idle
 // ==/UserScript==
- // use Tampermonkey extension on google chrome
+// Untuk mobile: Kiwi Browser (Android) atau Firefox Mobile dengan Tampermonkey
 (function () {
   "use strict";
 
@@ -55,7 +55,7 @@
       input.dispatchEvent(new Event("change", { bubbles: true }));
     });
 
-    console.log(`[AutoFill Survey] OK (${reason}) offset=${new URL(location.href).searchParams.get("offset")}`);
+    console.log(`[AutoFill Survey Mobile] OK (${reason}) offset=${new URL(location.href).searchParams.get("offset")}`);
   }
 
   // Run awal
@@ -65,3 +65,4 @@
   const obs = new MutationObserver(() => debounceRun("dom-changed"));
   obs.observe(document.body, { childList: true, subtree: true });
 })();
+
