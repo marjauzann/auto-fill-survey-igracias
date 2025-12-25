@@ -2,19 +2,11 @@
 
 Script JavaScript untuk mengisi form survey iGracias Telkom University secara otomatis.
 
-## 📋 Deskripsi
-
-Script ini akan secara otomatis mengisi:
-- **Radio button**: 
-  - Jika ada 4 pilihan → memilih pilihan ke-4
-  - Jika ada 2 pilihan → memilih pilihan ke-2
-- **Text input dan textarea**: Mengisi dengan tanda "-"
-
 ## 🚀 Cara Menggunakan
 
 Tersedia 2 metode penggunaan:
-1.Metode 1: Manual (Copy-Paste)
-2.Metode 2: Otomatis (Tampermonkey)
+- 1.Metode 1: Manual (Copy-Paste)
+- 2.Metode 2: Otomatis (Tampermonkey)
 
 ### **Metode 1: Manual (Copy-Paste)**
 
