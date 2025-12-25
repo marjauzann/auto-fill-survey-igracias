@@ -5,8 +5,8 @@ Script JavaScript untuk mengisi form survey iGracias Telkom University secara ot
 ## 🚀 Cara Menggunakan
 
 Tersedia 2 metode penggunaan:
-- 1.Metode 1: Manual (Copy-Paste)
-- 2.Metode 2: Otomatis (Tampermonkey)
+- 1.Metode 1: Manual (Copy-Paste) -> main.js
+- 2.Metode 2: Otomatis (Tampermonkey) -> versi-extension/index.js
 
 ### **Metode 1: Manual (Copy-Paste)**
 
