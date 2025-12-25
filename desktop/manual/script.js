@@ -20,3 +20,4 @@ Object.values(radioGroups).forEach(group => {
 document.querySelectorAll('input[type="text"], textarea').forEach(input => {
   input.value = "-";
 });
+

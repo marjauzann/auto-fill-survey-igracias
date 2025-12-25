@@ -1,0 +1,5 @@
+// Bookmarklet untuk Mobile Browser
+// Cara pakai: Copy seluruh kode di bawah (termasuk "javascript:"), buat bookmark baru, paste sebagai URL
+
+javascript:(function(){const CONFIG={textValue:"-",onlyPageId:"2001"};const url=new URL(location.href);const pageid=url.searchParams.get("pageid")||"";if(CONFIG.onlyPageId&&pageid!==CONFIG.onlyPageId)return;const radioGroups={};document.querySelectorAll('input[type="radio"]').forEach((radio)=>{if(radio.disabled)return;const name=radio.name||"__no_name__";(radioGroups[name]||=[]).push(radio);});Object.values(radioGroups).forEach((group)=>{const usable=group.filter((r)=>!r.disabled);if(usable.length===4){usable[3].checked=true;usable[3].dispatchEvent(new Event("change",{bubbles:true}));}else if(usable.length===2){usable[1].checked=true;usable[1].dispatchEvent(new Event("change",{bubbles:true}));}});document.querySelectorAll('input[type="text"],textarea').forEach((input)=>{if(input.disabled)return;input.value=CONFIG.textValue;input.dispatchEvent(new Event("input",{bubbles:true}));input.dispatchEvent(new Event("change",{bubbles:true}));});})();
+
