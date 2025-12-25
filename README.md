@@ -8,14 +8,14 @@ Script JavaScript untuk mengisi form survey iGracias Telkom University secara ot
 auto-fill-survey-igracias/
 ├── desktop/
 │   ├── manual/
-│   │   └── script.js          # Script untuk copy-paste manual
+│   │   └── script.js          # Script untuk copy-paste manual (1)
 │   └── tampermonkey/
-│       └── script.js          # Script untuk Tampermonkey extension
+│       └── script.js          # Script untuk Tampermonkey extension (2)
 ├── mobile/
 │   ├── bookmarklet/
-│   │   └── script.js          # Bookmarklet untuk semua browser mobile
+│   │   └── script.js          # Bookmarklet untuk semua browser mobile (3)
 │   └── tampermonkey/
-│       └── script.js          # Script untuk Tampermonkey mobile (Kiwi Browser)
+│       └── script.js          # Script untuk Tampermonkey mobile (Kiwi Browser) (4)
 └── README.md
 ```
 
