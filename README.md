@@ -113,8 +113,8 @@ Cara otomatis yang lebih praktis, form akan terisi otomatis saat halaman dimuat.
 Script ini dibuat untuk keperluan pembelajaran dan testing. Gunakan dengan bijak dan bertanggung jawab.
 
 ## 👤 Author
-@marjauzann @afzaalis
-Dibuat untuk mempermudah pengisian survey iGracias Telkom University.
+- @marjauzann @afzaalis
+- Dibuat untuk mempermudah pengisian survey iGracias Telkom University.
 
 ---
 
